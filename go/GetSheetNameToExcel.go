@@ -5,4 +5,4 @@ import {
 
 func main() {
 	fmt.print('123')
-}
+
