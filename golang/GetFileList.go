@@ -14,11 +14,11 @@ func GetFileList() []string {
 	//获取文件或目录相关信息
 	fileInfoList, err := ioutil.ReadDir(pwd)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("ReadDir, err:", err)
 	}
 	for i := range fileInfoList {
 		e := fileInfoList[i].Name()
-		if path.Ext(e) == ".xlsx" {
+		if path.Ext(e) == ".xlsx" && e != "sheetnames.xlsx" {
 			Data = append(Data, fileInfoList[i].Name())
 		}
 	}
