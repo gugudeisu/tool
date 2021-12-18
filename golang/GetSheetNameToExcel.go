@@ -5,19 +5,21 @@ import (
 	"github.com/xuri/excelize/v2"
 )
 
-func GetSheetName() {
+// GetSheetName 读取excel文件中所有sheet名称
+func GetSheetName(p string) []string {
+	var Data []string
 	//f := excelize.NewFile()
-	data := []string{}
-	f, err := excelize.OpenFile("C:\\Users\\lenovo\\OneDrive\\桌面\\宇森\\物料-2021-12-16\\精工.xlsx")
+	f, err := excelize.OpenFile(p)
 	if err != nil {
 		fmt.Print(err.Error())
-		return
+		return nil
 	}
 	for _, sheet := range f.GetSheetList() {
 		//fmt.Print(sheet)
-		data = append(data, sheet)
-		fmt.Println(data[0])
+		Data = append(Data, sheet)
+		//fmt.Println(data[0])
 
 	}
-	print(data)
+	return Data
+
 }
