@@ -1,4 +1,4 @@
-package golang
+package MouseTool
 
 import (
 	"github.com/go-vgo/robotgo"

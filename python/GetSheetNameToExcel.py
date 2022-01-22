@@ -2,7 +2,7 @@ import pandas
 import os
 
 
-def main():
+def GetSheetNameToFile():
     FileName = file_name('./')
     data = GetExcelSheetName(FileName)
     ExcelIO(data)
@@ -72,4 +72,4 @@ def GetExcelSheetName(data):
 
 
 if __name__ == '__main__':
-    main()
+    GetSheetNameToFile()

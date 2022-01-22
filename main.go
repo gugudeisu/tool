@@ -1,11 +1,12 @@
 package main
 
-import "tool/golang"
+import "tool/golang/OpencvStudy"
 
 func main() {
 	//获取表格sheet名
-	//golang.GetSheetNameToExcel()
+	//ExcelTool.GetSheetNameToExcel()
 	//模拟鼠标移动
-	golang.MouseGovern()
-
+	//MouseTool.MouseGovern()
+	//学习gocv
+	OpencvStudy.TestGoOpencv()
 }
