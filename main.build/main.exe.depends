@@ -1,0 +1,215 @@
+*****************************| System Information |*****************************
+
+Dependency Walker:       2.2.6000 (64-bit)
+Operating System:        Microsoft Windows NT/2000/XP/2003/Vista based Professional (64-bit)
+OS Version:              6.02.9200
+Processor:               AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD, ~3194MHz
+Number of Processors:    16, Mask: 0x000000000000FFFF
+Computer Name:           HUAN
+User Name:               10077
+Local Date:              2023年10月19日
+Local Time:              18:32:54  (GMT+08:00)
+OS Language:             0x0804: Chinese (PRC)
+Memory Load:             62%
+Physical Memory Total:   16,312,639,488 (15557 MB)
+Physical Memory Used:    10,139,357,184
+Physical Memory Free:    6,173,282,304
+Page File Memory Total:  19,058,208,768
+Page File Memory Used:   14,581,919,744
+Page File Memory Free:   4,476,289,024
+Virtual Memory Total:    140,737,488,224,256
+Virtual Memory Used:     4,431,024,128
+Virtual Memory Free:     140,733,057,200,128
+Page Size:               0x00001000 (4,096)
+Allocation Granularity:  0x00010000 (65,536)
+Min. App. Address:       0x0000000000010000 (65,536)
+Max. App. Address:       0x00007FFFFFFEFFFF (140,737,488,289,791)
+
+********************************| Search Order |********************************
+*                                                                              *
+* Legend: F  File                     E  Error (path not valid)                *
+*                                                                              *
+********************************************************************************
+
+Side-by-Side components (Windows 2000/XP/2003/Vista/+)
+A user defined directory
+   [  ] C:\Users\10077\AppData\Local\Programs\Python\PYTHON~1\
+A user defined directory
+   [  ] C:\Windows\System32\wbem\
+A user defined directory
+   [  ] C:\Windows\System32\WindowsPowerShell\v1.0\
+A user defined directory
+   [  ] C:\Users\10077\AppData\Local\Programs\Python\PYTHON~1\
+A user defined directory
+   [  ] C:\PROGRA~2\WI3CF2~1\10\WINDOW~1\
+
+***************************| Module Dependency Tree |***************************
+*                                                                              *
+* Legend: F  Forwarded Module   ?  Missing Module        6  64-bit Module      *
+*         D  Delay Load Module  !  Invalid Module                              *
+*         *  Dynamic Module     E  Import/Export Mismatch or Load Failure      *
+*                               ^  Duplicate Module                            *
+*                                                                              *
+********************************************************************************
+
+[  6] c:\\\python\tool\tool-m~1\tool\main.dist\MAIN.EXE
+     [ ? ] KERNEL32.DLL
+     [ ? ] MSVCRT.DLL
+     [ ? ] SHELL32.DLL
+     [  6] c:\users\10077\appdata\local\programs\python\python~1\PYTHON310.DLL
+          [ ? ] VERSION.DLL
+          [ ? ] WS2_32.DLL
+          [ ? ] API-MS-WIN-CORE-PATH-L1-1-0.DLL
+          [ ? ] ADVAPI32.DLL
+          [ ? ] KERNEL32.DLL
+          [  6] c:\users\10077\appdata\local\programs\python\python~1\VCRUNTIME140.DLL
+               [ ^6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL
+                    [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+               [ ^6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-HEAP-L1-1-0.DLL
+                    [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+               [ ^6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-STRING-L1-1-0.DLL
+                    [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+               [ ^6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-STDIO-L1-1-0.DLL
+                    [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+               [ ^6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-CONVERT-L1-1-0.DLL
+                    [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+               [ ? ] KERNEL32.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-MATH-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-LOCALE-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-STRING-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL
+               [F 6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-ERRORHANDLING-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-HEAP-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-PROCESSTHREADS-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-FILE-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-LIBRARYLOADER-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-SYNCH-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-DEBUG-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-PROCESSENVIRONMENT-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-STRING-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-LOCALIZATION-L1-2-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-DATETIME-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-SYSINFO-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-RTLSUPPORT-L1-1-0.DLL
+                         [F? ] NTDLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-PROCESSTHREADS-L1-1-1.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-CONSOLE-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-HANDLE-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-FILE-L1-2-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-NAMEDPIPE-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-TIMEZONE-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-FILE-L2-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-SYNCH-L1-2-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-PROFILE-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-MEMORY-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-UTIL-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+                    [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-INTERLOCKED-L1-1-0.DLL
+                         [F? ] KERNEL32.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-STDIO-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-CONVERT-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-TIME-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-ENVIRONMENT-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-PROCESS-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-HEAP-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-CONIO-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+          [  6] c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-FILESYSTEM-L1-1-0.DLL
+               [F^6] c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL
+
+********************************| Module List |*********************************
+*                                                                              *
+* Legend: D  Delay Load Module   ?  Missing Module           6  64-bit Module  *
+*         *  Dynamic Module      !  Invalid Module                             *
+*                                E  Import/Export Mismatch or Load Failure     *
+*                                                                              *
+********************************************************************************
+
+       Module                                                                          File Time Stamp   Link Time Stamp   File Size  Attr.  Link Checksum  Real Checksum  CPU  Subsystem  Symbols     Preferred Base      Actual Base  Virtual Size  Load Order  File Ver         Product Ver      Image Ver  Linker Ver  OS Ver  Subsystem Ver
+-----  ------------------------------------------------------------------------------  ----------------  ----------------  ---------  -----  -------------  -------------  ---  ---------  ----------  ------------------  -----------  ------------  ----------  ---------------  ---------------  ---------  ----------  ------  -------------
+[ ? ]  ADVAPI32.DLL                                                                    Error opening file. 系统找不到指定的文件。 (2).
+[ ? ]  API-MS-WIN-CORE-PATH-L1-1-0.DLL                                                 Error opening file. 系统找不到指定的文件。 (2).
+[ ? ]  KERNEL32.DLL                                                                    Error opening file. 系统找不到指定的文件。 (2).
+[ ? ]  MSVCRT.DLL                                                                      Error opening file. 系统找不到指定的文件。 (2).
+[ ? ]  NTDLL                                                                           Error opening file. 系统找不到指定的文件。 (2).
+[ ? ]  SHELL32.DLL                                                                     Error opening file. 系统找不到指定的文件。 (2).
+[ ? ]  VERSION.DLL                                                                     Error opening file. 系统找不到指定的文件。 (2).
+[ ? ]  WS2_32.DLL                                                                      Error opening file. 系统找不到指定的文件。 (2).
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-CONSOLE-L1-1-0.DLL             2023/05/11 23:30  2050/06/20  4:33     21,984  A      0x0000A829     0x0000A829     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-DATETIME-L1-1-0.DLL            2023/05/11 23:30  1999/05/28 12:47     22,024  A      0x00005EBE     0x00005EBE     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-DEBUG-L1-1-0.DLL               2023/05/11 23:30  2071/03/04 12:54     22,016  A      0x00005C1A     0x00005C1A     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-ERRORHANDLING-L1-1-0.DLL       2023/05/11 23:30  1976/12/07  6:45     21,968  A      0x00008009     0x00008009     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-FILE-L1-1-0.DLL                2023/05/11 23:30  2043/09/22  2:27     26,064  A      0x0000C46A     0x0000C46A     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00005000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-FILE-L1-2-0.DLL                2023/05/11 23:30  2014/04/20  5:38     22,024  A      0x000154B8     0x000154B8     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-FILE-L2-1-0.DLL                2023/05/12  3:27  2003/02/10  8:11     18,696  A      0x0000A3B8     0x0000A3B8     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00003000    Not Loaded  10.0.17134.12    10.0.17134.12    10.0       14.12       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-HANDLE-L1-1-0.DLL              2023/05/11 23:30  2096/09/25 21:36     21,984  A      0x00011212     0x00011212     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-HEAP-L1-1-0.DLL                2023/05/11 23:30  2027/11/12  8:58     22,016  A      0x00005C06     0x00005C06     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-INTERLOCKED-L1-1-0.DLL         2023/05/11 23:30  2079/10/02  6:19     22,024  A      0x00010673     0x00010673     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-LIBRARYLOADER-L1-1-0.DLL       2023/05/11 23:30  2061/02/15 18:16     21,984  A      0x00010746     0x00010746     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-LOCALIZATION-L1-2-0.DLL        2023/05/11 23:30  1997/03/12 19:40     21,984  A      0x00011779     0x00011779     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-MEMORY-L1-1-0.DLL              2023/05/11 23:30  2024/05/12  9:07     22,024  A      0x0000E5C7     0x0000E5C7     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-NAMEDPIPE-L1-1-0.DLL           2023/05/11 23:30  2080/12/22  4:43     21,968  A      0x00006C56     0x00006C56     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-PROCESSENVIRONMENT-L1-1-0.DLL  2023/05/11 23:30  2061/08/17 23:48     22,008  A      0x00013F06     0x00013F06     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-PROCESSTHREADS-L1-1-0.DLL      2023/05/11 23:30  2026/10/05 15:20     21,976  A      0x00008AF4     0x00008AF4     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-PROCESSTHREADS-L1-1-1.DLL      2023/05/11 23:30  2052/06/24  8:17     21,984  A      0x0001152A     0x0001152A     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-PROFILE-L1-1-0.DLL             2023/05/11 23:30  2024/01/16  7:12     22,024  A      0x0000EEEF     0x0000EEEF     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-RTLSUPPORT-L1-1-0.DLL          2023/05/11 23:30  2018/05/15 17:30     21,976  A      0x0000B2CC     0x0000B2CC     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-STRING-L1-1-0.DLL              2023/05/11 23:30  2041/12/04 11:53     22,024  A      0x00009D43     0x00009D43     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-SYNCH-L1-1-0.DLL               2023/05/11 23:30  2034/04/20  8:52     22,024  A      0x00012A3C     0x00012A3C     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-SYNCH-L1-2-0.DLL               2023/05/11 23:30  2076/02/10  1:12     22,008  A      0x00008802     0x00008802     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-SYSINFO-L1-1-0.DLL             2023/05/11 23:30  2072/10/26 14:06     22,024  A      0x00010B53     0x00010B53     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-TIMEZONE-L1-1-0.DLL            2023/05/11 23:30  2031/05/16 23:50     22,024  A      0x0000DF78     0x0000DF78     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CORE-UTIL-L1-1-0.DLL                2023/05/11 23:30  2065/10/14 12:14     22,024  A      0x0000FED3     0x0000FED3     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-CONIO-L1-1-0.DLL                2023/05/11 23:30  2055/05/17 14:03     22,008  A      0x000087B6     0x000087B6     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-CONVERT-L1-1-0.DLL              2023/05/11 23:30  2009/07/22 21:21     26,120  A      0x0000A979     0x0000A979     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00005000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-ENVIRONMENT-L1-1-0.DLL          2023/05/11 23:30  2029/02/14  8:05     22,024  A      0x00012AB0     0x00012AB0     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-FILESYSTEM-L1-1-0.DLL           2023/05/11 23:30  2053/05/01 14:54     21,984  A      0x0000A144     0x0000A144     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-HEAP-L1-1-0.DLL                 2023/05/11 23:30  1975/07/06 18:51     22,016  A      0x0000EE64     0x0000EE64     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-LOCALE-L1-1-0.DLL               2023/05/11 23:30  2030/01/31  3:00     22,024  A      0x000139F8     0x000139F8     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-MATH-L1-1-0.DLL                 2023/05/11 23:30  2104/05/03 18:59     30,160  A      0x00010356     0x00010356     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00006000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-PROCESS-L1-1-0.DLL              2023/05/11 23:30  2014/11/13 14:44     21,968  A      0x0000D2A3     0x0000D2A3     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL              2023/05/11 23:30  2013/10/08 21:55     26,120  A      0x00013396     0x00013396     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00005000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-STDIO-L1-1-0.DLL                2023/05/11 23:30  2015/04/05  0:55     26,112  A      0x00009565     0x00009565     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00005000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-STRING-L1-1-0.DLL               2023/05/11 23:30  2025/09/09  2:31     26,104  A      0x00009699     0x00009699     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00005000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\API-MS-WIN-CRT-TIME-L1-1-0.DLL                 2023/05/11 23:30  2041/08/06  3:36     22,016  A      0x0000DE26     0x0000DE26     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x00004000    Not Loaded  10.0.22621.1778  10.0.22621.1778  10.0       14.30       10.0    10.0
+[  6]  c:\progra~2\wi3cf2~1\10\window~1\UCRTBASE.DLL                                   2023/05/12  3:27  2017/01/17 18:07  1,016,584  A      0x001082A5     0x001082A5     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x000FA000    Not Loaded  10.0.17134.12    10.0.17134.12    10.0       14.12       10.0    5.2
+[  6]  c:\users\10077\appdata\local\programs\python\python~1\PYTHON310.DLL             2021/10/04 19:12  2021/10/05  3:01  4,450,544  A      0x004494E1     0x004494E1     x64  GUI        CV,Unknown  0x0000000180000000  Unknown      0x00450000    Not Loaded  3.10.150.1013    3.10.150.1013    0.0        14.29       6.0     6.0
+[  6]  c:\users\10077\appdata\local\programs\python\python~1\VCRUNTIME140.DLL          2021/10/04 19:12  2021/07/27  5:27     97,160  A      0x0001C6B4     0x0001C6B4     x64  Console    CV,Unknown  0x0000000180000000  Unknown      0x0001B000    Not Loaded  14.29.30133.0    14.29.30133.0    10.0       14.29       6.0     6.0
+[  6]  c:\\\python\tool\tool-m~1\tool\main.dist\MAIN.EXE                         2023/10/19 18:32  2023/10/19 18:32  6,782,464  A      0x002C5DF8     0x0067F05E     x64  Console    None        0x0000000140000000  Unknown      0x006A2000    Not Loaded  N/A              N/A              0.0        2.38        4.0     5.2
+
+************************************| Log |*************************************
+
+Error: At least one required implicit or forwarded dependency was not found.
+
